@@ -2,37 +2,447 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  width:  clamp(50px, 20%,  100px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  padding-top: 0.5%;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.heroBanner{
+ 
+  background-image: url(/public/images/Bdtk_hero-banner.png);
+  height: 1040px;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.heroBanner2{
+  background-image: url(/public/images/01.png);
+  height: 300px;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.tranparentBox{
+  
+
+ padding-right: 10%;
+ padding-bottom: 0.5%;
+  background-color: #ffff;
+  position: absolute;
+  top: 83%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+ 
+}
+
+.contactUs{
+  font-size: clamp(15px,2.5vw,20px);
+}
+
+.season2022{
+  font-size: clamp(12px,2.5vw,20px);
+  font-weight: 400;
+ 
+}
+
+
+.submitButton{
+  background-color: black;
+  color: #ffff;
+  font-size: clamp(10px,2.5vw,17px);
+  font-weight: 700;
+  margin-left: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+}
+
+.main2{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 3%;
+  gap:5rem;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.submain{
+  width: 40%;
+  display: block;
+  margin-left: 8%;
+  padding-top: 5%;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.images{
+  display: flex;
+  gap: clamp(1rem,1.5vw,2rem);
+}
+
+.komitis{
+  width: 47%;
+}
+
+.earth{
+  width: 47%;
+}
+
+.photoGallery{
+ width: clamp(70px,40%,200px);
+  margin-left:clamp(15%,32%,40%);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-size: clamp(8px,1.5vw,18px);
+}
+
+.submain1{
+  
+  width: 50%;
+  background-image: url(/public/images/image3.png);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  
+}
+
+.submitButton2{
+  background-color: #ffff;
+  color: black;
+  font-size: clamp(12px,1.5vw,15px);
+  font-weight: 700;
+  margin-top: 50%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.main3{
+  display: flex;
+  margin-top: 5%;
+
+}
+
+.main3Images{
+  width: 50%;
+}
+
+.footer{
+  display: block;
+}
+
+.footer1{
+  display: flex;
+  margin-top: 5%;
+
+  gap: 0.5rem;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #f2f2f2;
+  
+}
+
+.column{
+  display: block;
+  padding-left: 8%;
+  padding-top: 3%;
+  font-weight: 500;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
+}
+
+p{
+  
+  width: 100%;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
+margin-left:clamp(8%,10%,15%);
+
+
+}
+
+.span2{
+  width: 10%;
+}
+
+
+.footer2{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 100%;
+}
+
+.f2{
+    display: flex;
+    margin-top: 1%;
+  
+}
+
+.ab{
+  width: 100%;
+  display: flex;
+  margin-left:clamp(8%,10%,15%)
+}
+
+.underline{
+  width: auto;
+  text-decoration: underline;
+ 
+}
+
+.form{
+  width: 50%;
+  background-color: #ffff;
+  display: block;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+}
+
+.subForm{
+  margin-left:10% ;
+  width: 80%;
+  
+}
+
+.title{
+  font-size: clamp(1rem, 1.7vw, 2rem); 
+}
+
+select{
+  width: 100%;
+  padding: 1%;
+  border:  solid 1px black;
+  border-radius: 5px;
+  font-size: clamp(0.8rem, 1vw, 2rem); 
+}
+
+.inputs{
+  display: flex;
+  gap: 1rem;
+  margin-top: 2%;
+  
+  
+}
+
+.input{
+font-size: clamp(0.8rem, 1vw, 2rem); 
+  width: 47%;
+  background-color: #f0f5f5;
+  padding:1%;
+  border:  solid 1px #f0f5f5;
+  border-radius: 5px;
+  padding: 2%;
+  
+}
+
+.minima{
+  width: 10%;
+  font-size: clamp(0.9rem, 1.3vw, 1.7rem); 
+}
+
+.textarea{
+  font-size: clamp(0.8rem, 1vw, 2rem); 
+  background-color:  #f0f5f5;
+  width: 98%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 20%;
+  border:  solid 1px #f0f5f5;
+  border-radius: 5px;
+}
+
+.y{
+  display: flex;
+  margin-top: 5%;
+}
+.apodexomai{
+  
+  
+  font-size: clamp(0.7rem, 0.9vw, 1.5rem); 
+}
+
+.upoxreotika{
+  width: 40%;
+  color: lightgray;
+  font-weight: 600;
+  font-size: clamp(0.8rem, 1vw, 2rem); 
+}
+
+.checkBox{margin-left: 23%;}
+
+.ipovoli{
+  margin-top: 5%;
+  margin-left: 60%;
+  background-color: black;
+  color: #ffff;
+  font-weight: 500;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border:  solid 1px black;
+  border-radius: 5px;
+}
+
+.results{
+  width:100%;
+  background-color: #f0f5f5;
+  height: 919px;
+}
+
+
+.subresults{
+ background-color: #ffff;
+  display: block;
+  width:60%;
+  margin-left:20%;
+  position: absolute;
+  top:15%
+
+ 
+}
+
+.stoixeia{
+  width: 80%;
+  background-color: #f0f5f5;
+  margin-left: 10%;
+  display: flex;
+  border:  solid 1px #f0f5f5;
+  border-radius: 5px;
+  
+}
+
+.span{
+margin-left:5%;
+  padding: 3%;
+  font-weight: 700;
+  font-size: clamp(0.5rem, 0.9vw, 1.2rem); 
+}
+
+.message{
+  background-color: #f0f5f5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.telikoMnm{
+ width: fit-content;
+ padding-top: 5%;
+ padding-left: 15%;
+ font-size: clamp(0.7rem, 1.2vw, 1.5rem);
+}
+
+.textarea2{
+  font-size: clamp(0.5rem, 1vw, 1.2rem); 
+  background-color:  #f0f5f5;
+  width: 80%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 5%;
+  border:  solid 1px #f0f5f5;
+  border-radius: 5px;
+}
+
+.epistrofi{
+  
+  font-size: clamp(0.7rem, 1.2vw, 2rem); 
+  margin-left: 66%;
+  margin-bottom: 2%;
+  background-color: black;
+  color: #ffff;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border:  solid 1px black;
+  border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 620px) {
+ .main2{
+  display: block;
+ }
+
+ .photoGallery{
+  width: clamp(40px,30%,80px);
+   margin-left:clamp(25%,38%,52%);
+  
+  
+ }
+
+ .submain{
+  width: 80%;
+ }
+
+ .submain1{
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 7%;
+ 
+}
+
+
+}
+@media screen and (min-width: 1200px) {
+  p{
+    margin-left: 16%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .ab{
+    margin-left: 16%;
   }
 }
+
+@media screen and (max-width: 872px) {
+  .form{
+    width: 80%;
+    position: absolute;
+    top: 27%;
+    left: 10%;
+  }
+  
+
+  .subForm{
+    margin-left:5% ;
+    width: 90%;
+    
+  }
+
+  .input{
+    font-size: clamp(0.5rem, 1vw, 2rem); 
+  }
+
+  
+}
+
+@media screen and (max-width: 833px) {
+  .stoixeia{
+    display: block;
+  }
+
+  .span{
+    margin-left: 1%;
+  }
+
+ 
+}
+
+
+
